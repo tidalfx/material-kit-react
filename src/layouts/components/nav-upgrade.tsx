@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-import { textGradient } from 'src/theme/styles';
+import { textGradient } from '../../theme/styles';
 
 // ----------------------------------------------------------------------
 
@@ -37,7 +37,7 @@ export function NavUpgrade({ sx, ...other }: StackProps) {
       <Box
         component="img"
         alt="Minimal dashboard"
-        src="/assets/illustrations/illustration-dashboard.webp"
+        src="assets/illustrations/illustration-dashboard.webp"
         sx={{ width: 200, my: 2 }}
       />
 

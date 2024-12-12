@@ -17,10 +17,10 @@ import ListSubheader from '@mui/material/ListSubheader';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemButton from '@mui/material/ListItemButton';
 
-import { fToNow } from 'src/utils/format-time';
+import { fToNow } from '../../utils/format-time';
 
-import { Iconify } from 'src/components/iconify';
-import { Scrollbar } from 'src/components/scrollbar';
+import { Iconify } from '../../components/iconify';
+import { Scrollbar } from '../../components/scrollbar';
 
 // ----------------------------------------------------------------------
 
@@ -209,7 +209,7 @@ function renderContent(notification: NotificationItemProps) {
       avatarUrl: (
         <img
           alt={notification.title}
-          src="/assets/icons/notification/ic-notification-package.svg"
+          src="public/assets/icons/notification/ic-notification-package.svg"
         />
       ),
       title,
@@ -220,7 +220,7 @@ function renderContent(notification: NotificationItemProps) {
       avatarUrl: (
         <img
           alt={notification.title}
-          src="/assets/icons/notification/ic-notification-shipping.svg"
+          src="public/assets/icons/notification/ic-notification-shipping.svg"
         />
       ),
       title,
@@ -229,7 +229,7 @@ function renderContent(notification: NotificationItemProps) {
   if (notification.type === 'mail') {
     return {
       avatarUrl: (
-        <img alt={notification.title} src="/assets/icons/notification/ic-notification-mail.svg" />
+        <img alt={notification.title} src="public/assets/icons/notification/ic-notification-mail.svg" />
       ),
       title,
     };
@@ -237,7 +237,7 @@ function renderContent(notification: NotificationItemProps) {
   if (notification.type === 'chat-message') {
     return {
       avatarUrl: (
-        <img alt={notification.title} src="/assets/icons/notification/ic-notification-chat.svg" />
+        <img alt={notification.title} src="public/assets/icons/notification/ic-notification-chat.svg" />
       ),
       title,
     };

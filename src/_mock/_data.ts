@@ -16,7 +16,7 @@ import {
 export const _myAccount = {
   displayName: 'Jaydon Frankie',
   email: 'demo@minimals.cc',
-  photoURL: '/assets/images/avatar/avatar-25.webp',
+  photoURL: 'assets/images/avatar/avatar-25.webp',
 };
 
 // ----------------------------------------------------------------------
@@ -102,17 +102,17 @@ export const _langs = [
   {
     value: 'en',
     label: 'English',
-    icon: '/assets/icons/flags/ic-flag-en.svg',
+    icon: 'assets/icons/flags/ic-flag-en.svg',
   },
   {
     value: 'de',
     label: 'German',
-    icon: '/assets/icons/flags/ic-flag-de.svg',
+    icon: 'assets/icons/flags/ic-flag-de.svg',
   },
   {
     value: 'fr',
     label: 'French',
-    icon: '/assets/icons/flags/ic-flag-fr.svg',
+    icon: 'assets/icons/flags/ic-flag-fr.svg',
   },
 ];
 
@@ -154,7 +154,7 @@ export const _notifications = [
     id: _id(2),
     title: _fullName(2),
     description: 'answered to your comment on the Minimal',
-    avatarUrl: '/assets/images/avatar/avatar-2.webp',
+    avatarUrl: 'assets/images/avatar/avatar-2.webp',
     type: 'friend-interactive',
     postedAt: _times(2),
     isUnRead: true,

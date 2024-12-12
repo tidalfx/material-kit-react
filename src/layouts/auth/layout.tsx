@@ -3,11 +3,11 @@ import type { Theme, SxProps, Breakpoint } from '@mui/material/styles';
 import Link from '@mui/material/Link';
 import Alert from '@mui/material/Alert';
 
-import { RouterLink } from 'src/routes/components';
+import { RouterLink } from '../../routes/components';
 
-import { stylesMode } from 'src/theme/styles';
+import { stylesMode } from '../../theme/styles';
 
-import { Logo } from 'src/components/logo';
+import { Logo } from '../../components/logo';
 
 import { Main } from './main';
 import { HeaderSection } from '../core/header-section';
@@ -82,7 +82,7 @@ export function AuthLayout({ sx, children, header }: AuthLayoutProps) {
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center',
-          backgroundImage: `url(/assets/background/overlay.jpg)`,
+          backgroundImage: `url(public/assets/background/overlay.jpg)`,
           [stylesMode.dark]: { opacity: 0.08 },
         },
         ...sx,

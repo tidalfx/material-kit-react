@@ -3,9 +3,9 @@ import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
-import { RouterLink } from 'src/routes/components';
+import { RouterLink } from '../../routes/components';
 
-import { SimpleLayout } from 'src/layouts/simple';
+import { SimpleLayout } from '../../layouts/simple';
 
 // ----------------------------------------------------------------------
 
@@ -24,7 +24,7 @@ export function NotFoundView() {
 
         <Box
           component="img"
-          src="/assets/illustrations/illustration-404.svg"
+          src="assets/illustrations/illustration-404.svg"
           sx={{
             width: 320,
             height: 'auto',

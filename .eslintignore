@@ -22,9 +22,6 @@ public/*
 # next
 **/next.config.*
 
-# vite
-**/vite.config.*
-
 # tailwind
 **/postcss.config.*
 **/tailwind.config.*

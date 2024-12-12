@@ -6,13 +6,13 @@ import Card from '@mui/material/Card';
 import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
 
-import { fDate } from 'src/utils/format-time';
-import { fShortenNumber } from 'src/utils/format-number';
+import { fDate } from '../../utils/format-time';
+import { fShortenNumber } from '../../utils/format-number';
 
-import { varAlpha } from 'src/theme/styles';
+import { varAlpha } from '../../theme/styles';
 
-import { Iconify } from 'src/components/iconify';
-import { SvgColor } from 'src/components/svg-color';
+import { Iconify } from '../../components/iconify';
+import { SvgColor } from '../../components/svg-color';
 
 // ----------------------------------------------------------------------
 
@@ -149,7 +149,7 @@ export function PostItem({
     <SvgColor
       width={88}
       height={36}
-      src="/assets/icons/shape-avatar.svg"
+      src="public/assets/icons/shape-avatar.svg"
       sx={{
         left: 0,
         zIndex: 9,
